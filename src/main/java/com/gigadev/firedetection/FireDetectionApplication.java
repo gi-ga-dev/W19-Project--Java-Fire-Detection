@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FireDetectionApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FireDetectionApplication.class, args);
+		SpringApplication.run(FireDetectionApplication.class, args);		
 	}
 
 }

@@ -13,7 +13,7 @@ public class CommChannel {
 	public void sendComm(SmokeDetectorImpl detector) {
 		log.info("Alarm smoke detector n. " + detector.getId() + " latitude: " + detector.getLatitude() + " longitude: " + detector.getLongitude() + " smoke particles detected: " + detector.getSmokeParticles());
 		String completeUrl = baseUrl + "?=idDetector=" + detector.getId() + "&lat=" + detector.getLatitude() + "&lon=" + detector.getLongitude() + "&smokelevel=" + detector.getSmokeParticles();
-		log.info("Authorized personell has been alerted! Refer to: " + completeUrl);
+		log.info("Authorized personnel has been alerted! Refer to: " + completeUrl);
 	}	
 	
 }
